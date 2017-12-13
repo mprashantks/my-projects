@@ -40,10 +40,10 @@ int main () {
 
   int *arr = new int[size_array];
   std::cout << "\nEnter array \n";
-	for (int i=0; i<size_array; i++)
+  for (int i=0; i<size_array; i++)
     std::cin >> arr[i];
 
-	std::cout << "Maximum sum is: " << maxSum(arr, size_array) << std::endl;
+  std::cout << "Maximum sum is: " << maxSum(arr, size_array) << std::endl;
 
-	return 0;
+  return 0;
 }
