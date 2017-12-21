@@ -1,9 +1,18 @@
 /**
- * UnionFind/Disjoint Set data structure implementation.
- **/
+  * Task is to find the minimum spanning tree so that computer network
+  can be build using minimum wires as possible to save cost.
+  * For this Kruskal algorithm is used to construct a minimum spanning tree.
+  * Kruskal algorithm forms minimum spanning tree by including edges in way
+  such that the cost is minimum.
+  * To find cycles in graph UnionFind data structure is used
+  **/
 
 #include <iostream>
 
+
+/**
+ * UnionFind/Disjoint Set data structure implementation.
+ **/
 
 class UnionFind {
 
